@@ -1,0 +1,100 @@
+/* цвет основного текста (абзцы) (primary) #757575 */
+/* вторичны цвет текста (заголовки) (title) #212121; */
+/* акцент (выделения голубым) (accent-text) #2196F3; */
+/*основной фон (якости, чем занимаемся) 
+(primary-background-color) #F5F5F5 */
+/* второстепенный фон (наша команда)
+(secondary-background-color) #F5F4FA */
+/*дополнительный цвет текста (Stydio)
+(secondary-text-color) #000000*/
+
+
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --primary-background-color: #F5F5F5;
+    --secondary-background-color:#F5F4FA;
+    --secondary-background-studio:#2F303A;
+    --secondary-text-color: #000000;
+}
+
+.list {
+    list-style: none;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color) ;
+}
+
+header {
+   background-color: #FFFFFF; 
+}
+.logo {
+    color: var(--accent-text-color);
+}
+.nav-color {
+    color: var(--secondary-text-color);
+}
+
+
+
+/* site nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-text-color);
+}
+
+/*contact nav*/
+.contact-nav .link {
+    color: var(--primary-text-color);
+}
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+    color: var(--accent-text-color);
+}
+
+/* Hero*/
+.hero-title {
+    color: #FFFFFF;
+}
+.button-title {
+    background: var(--accent-text-color);
+    color: var(--primary-background-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+/*.button-title:hover,
+.button-title:focus {
+    color: var(--accent-text-color)
+}*/
+
+/* section*/
+.section-title {
+    color:var(--title-text-color);
+}
+
+/*Якості*/
+.list-title .title {
+ color: var(--title-text-color);
+}
+
+/*Команда*/
+
+.section-team {
+    background: var(--secondary-background-color);
+}
+
+.information-title {
+    color: var(--title-text-color);
