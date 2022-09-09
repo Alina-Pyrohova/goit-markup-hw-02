@@ -180,6 +180,9 @@ body {
   color: var(--primary-background-color);
 }
 
+address-link {
+  color: var(--primary-background-color);
+}
 /* Портфоліо кнопки */
 
 .button-filter {
@@ -194,7 +197,8 @@ body {
 
 .button-filter:hover,
 .button-filter:focus {
-  color: var(--accent-text-color);
+  color: var(--primary-background-color);
+  background: var(--accent-text-color);
 }
 
 .portfolio-title {
